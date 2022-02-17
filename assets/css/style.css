@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+}
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+section,
+footer {
+    margin-top: 75px;
+}
+
+footer {
+    padding: 50px;
+}
+
+.oscuro {
+    background: #000f08;
+    color: #ffffff;
+}
+
+.oscuro a {
+    background: #000f08;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sweet-brown {
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+    padding: 50px;
+    white-space: nowrap;
+}
+
+.hero-section {
+    text-align: right;
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 2px 3px 2px #707070;
+    padding: 50px 50px 250px 50px;
+}
+
+.charla-speaker,
+.charla-texto,
+.evento {
+    display: inline-block;
+}
+
+.centrado {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.charla-speaker {
+    width: 25%;
+    vertical-align: middle;
+}
+
+.charla-texto {
+    width: 72.5%;
+    vertical-align: middle;
+    margin-left: 2.5%;
+    white-space: normal;
+}

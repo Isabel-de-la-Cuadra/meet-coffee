@@ -15,46 +15,59 @@
 
 <body>
 
-    <nav>
-        <li><a href="#">Ícono</a></li>
-        <li><a href="#">Ubicación</a></li>
-        <li><a href="#">Próxima Charla</a></li>
-        <li><a href="#">Eventos anteriores</a></li>
-        <li><a href="#">Contacto</a></li>
+    <nav class="oscuro">
+        <li><a href="#inicio">Ícono</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#proxima-charla">Próxima Charla</a></li>
+        <li><a href="#eventos">Eventos anteriores</a></li>
+        <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
-    <header><img src="assets/img/bg-hero.png" alt="Hero image">
-        <h1>Descubre lo último en tecnología bebiendo café</h1>
-        <h2>Charlas, eventos y simposios sobre tecnología</h2>
+    <header id="inicio" class="hero-section">
+        <h1>Descubre lo último en tecnología bebiendo café</h1lass=>
+            <h2>Charlas, eventos y simposios sobre tecnología</h2>
     </header>
 
-    <section>
-        <img src="assets/img/we-work.jpg" alt="">
+    <section id="ubicacion">
+        <img src="assets/img/we-work.jpg" alt="We work location">
         <h2>¿Dónde nos juntamos?</h2>
         <p>Todos los martes y viernes, de 19:00 a 22:00, en We Work, Calle Baker 133, Providencia, Santiago.</p>
     </section>
 
-    <section>
-        <img src="assets/img/speaker.jpg" alt="">
-        <h2>Próxima charla</h2>
-        <h3>Big Data para Noobs</h3>
-        <h4>Rafaela Valdéz</h4>
-        <h5>Data scientist, phD Theoriccal Physics, Carneige Mellon University</h5>
-        <p>En esta charla revisaremos las técnicas y tecnologías que hacen que sea económico hacer frente a los datos de una escala extrema.</p>
+    <section id="proxima-charla" class="sweet-brown">
+        <div class="centrado">
+            <img src="assets/img/speaker.jpg" alt="speaker" class="charla-speaker">
+            <div class="charla-texto">
+                <h2>Próxima charla</h2>
+                <h3>Big Data para Noobs</h3>
+                <h4>Rafaela Valdéz</h4>
+                <h5>Data scientist, phD Theoriccal Physics, Carneige Mellon University</h5>
+                <p>En esta charla revisaremos las técnicas y tecnologías que hacen que sea económico hacer frente a los datos de una escala extrema.</p>
+            </div>
+        </div>
     </section>
 
-    <section>
+    <section id="eventos">
         <h2>Eventos anteriores</h2>
-        <img src="assets/img/simposio-vegan.jpg" alt=" ">
-        <h3>Simposio Vegan DB</h3>
-        <img src="assets/img/machine-learning.jpg" alt=" ">
-        <h3>Machine learning 101</h3>
-        <img src="assets/img/scrum-sin-scream.jpg" alt=" ">
-        <h3>Scrum sin scream</h3>
+        <article class="evento">
+            <img src="assets/img/simposio-vegan.jpg" alt="Events simposio vegan">
+            <h3>Simposio Vegan DB</h3>
+        </article>
+
+        <article class="evento">
+            <img src="assets/img/machine-learning.jpg" alt="machine-learning">
+            <h3>Machine learning 101</h3>
+        </article>
+
+        <article class="evento">
+            <img src="assets/img/scrum-sin-scream.jpg" alt="scrum-sin-scream">
+            <h3>Scrum sin scream</h3>
+        </article>
+
     </section>
 
-    <footer>
+    <footer id="contacto" class="oscuro">
         <p>Meet & coffee 2018. Todos los derechos reservados.</p>
     </footer>
 
