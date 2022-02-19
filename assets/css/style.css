@@ -125,11 +125,17 @@ footer {
     width: 75%;
 }
 
+.enlace {
+    text-decoration: none;
+    color: #000f08;
+}
+
 nav {
     text-align: left;
     padding: 1.25rem 4rem;
     position: fixed;
     width: 100vw;
+    top: 0;
 }
 
 nav ul {
@@ -152,4 +158,29 @@ nav ul li {
 
 footer i {
     margin: 0 0.25em 0.5em 0.25em;
+}
+
+header {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+#tituloEvento {
+    text-align: left;
+    font-family: 'Open Sans', 'Bold';
+    color: black;
+    margin-left: 275px;
+}
+
+#seccionTexto {
+    text-align: left;
+}
+
+.fotoPost {
+    width: 100%;
+}
+
+.margenEvento {
+    margin-left: 300px;
+    margin-right: 300px;
 }
